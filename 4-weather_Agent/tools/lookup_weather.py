@@ -67,5 +67,4 @@ def lookup_weather(location:str)->str:
         return f"We couldn't look up weather for {location}: {e}"
     except Exception as e:
          return f"We couldn't look up weather for {location} due some other issue: {e}"
-
-print(lookup_weather("Lucknow"))
+
